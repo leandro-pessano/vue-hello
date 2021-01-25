@@ -1,0 +1,12 @@
+.img-css {
+  opacity: 0;
+  animation-name: opacity-border;
+  animation-duration: 4s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes opacity-border {
+  0% {opacity: 0;}
+  100% {border-radius: 25%; opacity: 1}
+}

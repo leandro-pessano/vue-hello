@@ -6,6 +6,7 @@ var vue = new Vue ({
   data: {
     message: 'Hello Vue!',
     image: 'https://ryo.app/wp-content/uploads/2019/09/vuejs.png',
-    alt: 'Vue'
+    alt: 'Vue',
+    myClass: 'img-css'
   }
 });
